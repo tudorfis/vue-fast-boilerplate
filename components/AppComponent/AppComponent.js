@@ -1,7 +1,4 @@
 
 export default {
-    template: await importTemplate( import.meta ),
-    data() {
-        return {};
-    }
+    template: await TDR.importTemplate( import.meta )
 }
